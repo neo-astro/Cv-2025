@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Adrián Esteban Abril Pesántez</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="theme-toggle">
+    <input type="checkbox" id="theme-switch" class="theme-switch">
+    <label for="theme-switch" class="theme-switch-label">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <span class="toggle-ball"></span>
+    </label>
+  </div>
+
+  <div class="print-button">
+    <button onclick="window.print()">
+      <i class="fas fa-download"></i> Descargar CV
+    </button>
+  </div>
+
+  <div class="cv-container">
+    <div class="decorative-shape shape-1"></div>
+    <div class="decorative-shape shape-2"></div>
+    
+    <header class="header">
+      <div class="header-content">
+        <div class="header-left animated fadeIn">
+          <h1>Adrián Esteban Abril Pesántez</h1>
+          <div class="gradient-line"></div>
+          <p class="subtitle">Desarrollador Full-Stack | UI/UX | Ciberseguridad</p>
+        </div>
+        <div class="header-right animated fadeIn delay-1">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:estevanabril@hotmail.es">estevanabril@hotmail.es</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+593987571164">+593 987571164</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Milagro, Ecuador</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="profile animated fadeIn delay-2">
+        <div class="section-title">
+          <i class="fas fa-user-circle"></i>
+          <h2>Perfil Profesional</h2>
+          <div class="title-line"></div>
+        </div>
+        <p class="first-letter-large">Desarrollador de software por profesión y pasión, especializado en desarrollo full-stack con gran enfoque en frontend e interfaces atractivas, funcionales y accesibles. Domino diversos lenguajes de programación, frameworks y librerías modernas. Cuento con formación y experiencia práctica en diseño UI/UX, desarrollo de proyectos web, IoT, soluciones en la nube, microservicios, así como herramientas de gestión y diseño. Actualmente trabajo en Iroute Solutions y estoy cursando una Maestría en Análisis y Visualización de Datos en la Universidad Internacional de La Rioja (UNIR), donde potencio mis habilidades en el manejo estratégico de la información.</p>
+      </section>
+
+      <section class="tech-skills animated fadeIn delay-3">
+        <div class="section-title">
+          <i class="fas fa-code"></i>
+          <h2>Perfil Tecnológico</h2>
+          <div class="title-line"></div>
+        </div>
+        
+        <div class="columns">
+          <div class="column">
+            <div class="skill-category">
+              <h3><i class="fas fa-database"></i> Bases de Datos:</h3>
+              <div class="badges-container">
+                <div class="badge">SQL Server</div>
+                <div class="badge">MongoDB</div>
+                <div class="badge">PostgreSQL</div>
+              </div>
+            </div>
+            
+            <div class="skill-category">
+              <h3><i class="fas fa-vial"></i> Testing:</h3>
+              <div class="badges-container">
+                <div class="badge">Postman</div>
+                <div class="badge">Selenium</div>
+              </div>
+            </div>
+            
+            <div class="skill-category">
+              <h3><i class="fas fa-tasks"></i> Gestión:</h3>
+              <div class="badges-container">
+                <div class="badge">JIRA</div>
+              </div>
+            </div>
+            
+            <div class="skill-category">
+              <h3><i class="fas fa-palette"></i> Diseño:</h3>
+              <div class="badges-container">
+                <div class="badge">Figma</div>
+                <div class="badge">Lucidchart</div>
+                <div class="badge">Canva</div>
+              </div>
+            </div>
+            
+            <div class="skill-category">
+              <h3><i class="fas fa-cloud"></i> Nube:</h3>
+              <div class="badges-container">
+                <div class="badge">Firebase</div>
+                <div class="badge">Google Cloud</div>
+                <div class="badge">Azure</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="skill-category">
+              <h3><i class="fas fa-laptop-code"></i> Front/Back-End:</h3>
+              <div class="badges-container">
+                <div class="badge">Angular</div>
+                <div class="badge">React</div>
+                <div class="badge">Flutter</div>
+                <div class="badge">Django</div>
+                <div class="badge">DRF</div>
+                <div class="badge">FastAPI</div>
+                <div class="badge">Flask</div>
+                <div class="badge">ASP.NET Core</div>
+                <div class="badge">Spring Boot</div>
+              </div>
+            </div>
+            
+            <div class="skill-category">
+              <h3><i class="fas fa-graduation-cap"></i> Capacitaciones Técnicas:</h3>
+              <div class="badges-container">
+                <div class="badge">UX Design (Google)</div>
+                <div class="badge">Git/GitHub</div>
+                <div class="badge">HTML/CSS</div>
+                <div class="badge">Python</div>
+                <div class="badge">JavaScript</div>
+                <div class="badge">AWS Cloud (en curso)</div>
+                <div class="badge">AZURE AZ-900 (en curso)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="columns">
+        <section class="experience column animated fadeIn delay-4">
+          <div class="section-title">
+            <i class="fas fa-briefcase"></i>
+            <h2>Experiencia Laboral</h2>
+            <div class="title-line"></div>
+          </div>
+          
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Iroute Solutions</h3>
+                <div class="timeline-period">Actualidad</div>
+                <p>Desarrollador Full-Stack</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>UNEMI</h3>
+                <div class="timeline-period">04/2023 - 03/2023</div>
+                <p>Asistente Técnico en Desarrollo de Sistemas</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Bitekso</h3>
+                <div class="timeline-period">09/2022 - 12/2022</div>
+                <p>Programador Full-Stack (Node.js y Angular)</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="education column animated fadeIn delay-5">
+          <div class="section-title">
+            <i class="fas fa-graduation-cap"></i>
+            <h2>Educación</h2>
+            <div class="title-line"></div>
+          </div>
+          
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>UNIR</h3>
+                <p>Maestría en Análisis y Visualización de Datos (En curso)</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>UNEMI</h3>
+                <p>Ingeniería en Software</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Platzi</h3>
+                <p>Escuela de Desarrollo de Software</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Udemy</h3>
+                <p>.NET Core, Angular, Python, Ciberseguridad</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Coursera</h3>
+                <p>UX|UI Design con Google</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="columns three-columns">
+        <section class="skills column animated fadeIn delay-6">
+          <div class="section-title">
+            <i class="fas fa-star"></i>
+            <h2>Habilidades</h2>
+            <div class="title-line"></div>
+          </div>
+          
+          <div class="skills-list">
+            <div class="skill-item">
+              <i class="fas fa-users"></i>
+              <span>Trabajo en equipo</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-sync-alt"></i>
+              <span>Resiliencia y adaptabilidad</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-clock"></i>
+              <span>Trabajo bajo presión</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-tasks"></i>
+              <span>Multitarea</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-book"></i>
+              <span>Aprendizaje continuo</span>
+            </div>
+          </div>
+        </section>
+        
+        <section class="languages column animated fadeIn delay-7">
+          <div class="section-title">
+            <i class="fas fa-language"></i>
+            <h2>Idiomas</h2>
+            <div class="title-line"></div>
+          </div>
+          
+          <div class="language-skills">
+            <div class="language-skill">
+              <div class="language-info">
+                <span>Español (Nativo)</span>
+                <div class="language-level-container">
+                  <div class="language-level" data-level="5">
+                    <div class="level-dot filled"></div>
+                    <div class="level-dot filled"></div>
+                    <div class="level-dot filled"></div>
+                    <div class="level-dot filled"></div>
+                    <div class="level-dot filled"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="language-skill">
+              <div class="language-info">
+                <span>Inglés (A2 - B1)</span>
+                <div class="language-level-container">
+                  <div class="language-level" data-level="2">
+                    <div class="level-dot filled"></div>
+                    <div class="level-dot filled"></div>
+                    <div class="level-dot"></div>
+                    <div class="level-dot"></div>
+                    <div class="level-dot"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="contact-info column animated fadeIn delay-8">
+          <div class="section-title">
+            <i class="fas fa-address-card"></i>
+            <h2>Contacto</h2>
+            <div class="title-line"></div>
+          </div>
+          
+          <div class="contact-details">
+            <div class="contact-detail">
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:+593987571164">+593 987571164</a>
+            </div>
+            
+            <div class="contact-detail">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:estevanabril@hotmail.es">estevanabril@hotmail.es</a>
+            </div>
+            
+            <div class="contact-detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Milagro, Ecuador</span>
+            </div>
+            
+          
+          </div>
+        </section>
+      </div>
+    </main>
+      <div class="social-links" style="margin-left: 45% ; padding: 0;">
+              <a href="https://www.linkedin.com/in/neoastro/" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/neo-astro" target="_blank" class="social-link">
+                
+                <i class="fab fa-github"></i>
+              </a>
+             
+            </div>
+    <footer>
+      <p>© 2023 Adrián Abril - Todos los derechos reservados</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
